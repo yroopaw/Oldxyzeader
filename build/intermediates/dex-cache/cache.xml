@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="e963fc158684e273d984db30eb6b9685c1099eea">
+        sha1="0e9808998ce3ce8343cf9464905050a664f348e9">
         <dex dex="/Users/yusuf/Desktop/Android_NanoDegree/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_10dff0322c788bbffe9fc2ace45db279728df44d/classes.dex" />
     </item>
     <item
@@ -97,7 +97,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="d33c6b47cabf690fef18b8c6a9343259a4081152">
+        sha1="e7d7832985ea660c6d4b88a61ad0271c82aa45a0">
         <dex dex="/Users/yusuf/Desktop/Android_NanoDegree/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4891d00fb7995d1db9e29d2acc149187b3c56cda/classes.dex" />
     </item>
     <item

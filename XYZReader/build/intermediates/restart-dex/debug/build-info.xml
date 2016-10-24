@@ -5,47 +5,33 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.1"
-    timestamp="48066478412423"
+    timestamp="59272561814187"
     token="-2162881315726906067"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="519" />
+        duration="1290" />
     <task
         name="instant-run-dex"
-        duration="785" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="126" />
+        duration="859" />
     <task
         name="verifier"
-        duration="4" />
+        duration="54" />
 
     <artifact
-        location="/Users/yusuf/Desktop/Android_NanoDegree/xyzreader/XYZReader/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/yusuf/Desktop/Android_NanoDegree/xyzreader/XYZReader/build/outputs/apk/XYZReader-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="47602499968729"
-        verifier="BINARY_MANIFEST_FILE_CHANGE" >
+        timestamp="59272561814187"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/yusuf/Desktop/Android_NanoDegree/xyzreader/XYZReader/build/outputs/apk/XYZReader-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="48045126361339"
-        verifier="METHOD_ADDED" >
-        <artifact
-            location="/Users/yusuf/Desktop/Android_NanoDegree/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="48066478412423"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/yusuf/Desktop/Android_NanoDegree/xyzreader/XYZReader/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

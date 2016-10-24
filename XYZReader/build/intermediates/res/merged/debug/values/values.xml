@@ -1545,6 +1545,13 @@
     <style name="Theme.Black.Detail">
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
+    <style name="Theme.Black.Details">
+        <item name="android:windowExitTransition">
+            @transition/grid_exit
+        </item>
+
+
+    </style>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>

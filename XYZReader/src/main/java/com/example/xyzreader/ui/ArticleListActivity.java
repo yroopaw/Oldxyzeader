@@ -178,7 +178,7 @@ public class ArticleListActivity extends AppCompatActivity implements
                 public void onClick(View view) {
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                         Bundle bundle = ActivityOptions
-                                .makeSceneTransitionAnimation(getActivity())
+                                .makeSceneTransitionAnimation(ArticleListActivity.this)
                                 .toBundle();
                         //  setupWindowAnimations();
                         startActivity(new Intent(Intent.ACTION_VIEW,

@@ -1,4 +1,4 @@
-#Tue Oct 18 21:13:26 IST 2016
+#Fri Oct 21 06:47:41 IST 2016
 base.0=/Users/yusuf/Desktop/Android_NanoDegree/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_10dff0322c788bbffe9fc2ace45db279728df44d
 renamed.1=classes.dex
 renamed.0=classes2.dex

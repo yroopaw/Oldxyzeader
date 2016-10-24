@@ -138,8 +138,8 @@ public class ArticleDetailFragment extends Fragment implements
             public void onScrollChanged() {
                 mScrollY = mScrollView.getScrollY();
                 getActivityCast().onUpButtonFloorChanged(mItemId, ArticleDetailFragment.this);
-               //yy check
-               // mPhotoContainerView.setTranslationY((int) (mScrollY - mScrollY / PARALLAX_FACTOR));
+                //yy check
+                // mPhotoContainerView.setTranslationY((int) (mScrollY - mScrollY / PARALLAX_FACTOR));
 
                 //yy check
                 updateStatusBar();
@@ -149,7 +149,7 @@ public class ArticleDetailFragment extends Fragment implements
         mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
 
         //yy Check
-     //mPhotoContainerView = mRootView.findViewById(R.id.photo_container);
+        //mPhotoContainerView = mRootView.findViewById(R.id.photo_container);
 
         //yy check
 
@@ -195,6 +195,7 @@ public class ArticleDetailFragment extends Fragment implements
 
         }
     }
+
     private void updateStatusBar() {
         int color = 0;
         if (mPhotoView != null && mTopInset != 0 && mScrollY > 0) {
@@ -274,7 +275,7 @@ public class ArticleDetailFragment extends Fragment implements
         } else {
             mRootView.setVisibility(View.GONE);
             titleView.setText("N/A");
-            bylineView.setText("N/A" );
+            bylineView.setText("N/A");
             bodyView.setText("N/A");
         }
     }
@@ -329,13 +330,15 @@ public class ArticleDetailFragment extends Fragment implements
             if (mMutedColor != currentMutedColor) {
                 mDetailCollapsingToolBar.setBackgroundColor(mMutedColor);
             }
-            else {
-                mPhotoView.setVisibility(View.VISIBLE);
-                int transparentColor = getResources().getColor(R.color.transparent_color);
-                mDetailCollapsingToolBar.setBackgroundColor(transparentColor);
-                mRootView.findViewById(R.id.meta_bar).setBackgroundColor(transparentColor);
-            }
+        } else {
+            mPhotoView.setVisibility(View.VISIBLE);
+            int transparentColor = getResources().getColor(R.color.transparent_color);
+            mDetailCollapsingToolBar.setBackgroundColor(transparentColor);
+            mRootView.findViewById(R.id.meta_bar).setBackgroundColor(transparentColor);
+
         }
+
     }
+
 
 }
